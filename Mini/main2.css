@@ -1,0 +1,118 @@
+@import"./settings.css";
+@import url('https://fonts.google.com/specimen/Figtree');
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.form {
+    width: 320px;
+    height: 470px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 42%);
+    border-radius: 15px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+    position: relative;
+    font-family: 'figtree';
+}
+
+.img1 {
+    width: 280px;
+    height: 170px;
+    margin-top: 17px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100%;
+        height: inherit;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.legend {
+    width: 320px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    font-family: var(figtree);
+
+    h3 {
+        height: 30px;
+        padding-left: 16px;
+        position: absolute;
+        width:35%;
+        font-family: var(figtree);
+        background-color:hsl(47, 88%, 63%) ;
+        border-radius: 6px;
+        font-weight: 800;
+        bottom: 240px;
+        right: 185px;
+    }
+
+    h1 {
+        &:hover{
+            cursor: pointer;
+        }
+        color: hsl(0, 0%, 7%);
+        font-family: var(figtree);
+        padding-left:20px ;
+        line-height: 50px;
+        font-weight: 800;
+    }
+    h4{
+        font-weight: 500;
+        padding-left: 20px;
+        
+    
+    }
+    .p1{
+        width: 100%;
+        height: 70px;
+        line-height: 24px;
+        padding-left: 20px;
+        color: hsl(0, 0%, 42%);
+        font-size: 16px;
+        font-weight: 500;
+        
+    }
+    .im3{
+        width:100%;
+        height: 50px;
+
+        
+    }
+    .im3 img{
+        height: 50px;
+        width: 35px;
+        margin-left: 25px;
+        margin-top: 20px;
+        object-fit: contain;
+    }
+    .im3 span{
+            width: 100%;
+            height: 50px;
+            font-weight:bolder;
+            position: absolute;
+            bottom: 12px;
+            padding-left: 15px;
+           
+            
+        }
+    }
+
