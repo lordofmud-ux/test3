@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-family:figtree;
+}
+@font-face {
+    font-family: figtree;
+    src: url(./fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(./fonts/Figtree-VariableFont_wght.ttf);
+}
